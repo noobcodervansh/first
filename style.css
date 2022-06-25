@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Baloo Bhai 2', cursive
+}
+header{
+    height: 55px;
+    background-color:#2874f0;
+    display: flex; 
+}
+.logo{
+    display: flex;
+    align-items: center;
+    height:55px;
+    width: 150px;
+}
+.flipkart{
+    height:40px;
+    width: 100px;
+    padding-left: 18px;
+}
+ul { 
+     display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+a{
+text-decoration: none;
+margin-top: 5px;
+padding: 0 30px;
+color: yellow;
+}
+ul :hover{
+    font-weight: bolder;
+    font-size: 20px;
+    }
+    .search{
+        display: flex;
+        align-items: center;
+    }
+    .search input{
+        width: 400px;
+        margin-left: 30px;
+        border-radius: 5px;
+        padding: 0 15px;
+        align-items: center;
+    }
+    .btn{
+        display: flex;
+        height: 22px;
+        width: 62px;
+        margin: 17px 0 0 20px;
+        justify-content: center;
+        background-color:hwb(217 16% 6%) ;
+        border: 2px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+      
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.slider img{
+    height: 400px;
+    width: 80vw;
+    margin: 0 10vw;
+}
+.card{
+    width: 90vw;
+    margin: auto;
+}
+.lines{
+    margin: 0 0 0 40px;
+    /* display: flex; */
+}
+.foot{
+    height: 50px;
+    background-color:hwb(217 16% 6%);
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    margin-top:34vh;
+}
+.full{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
